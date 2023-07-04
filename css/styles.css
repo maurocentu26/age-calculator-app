@@ -100,8 +100,7 @@ button{ border: none; background: none; cursor: pointer;}
     width: 1.5rem;
     position: absolute;
 }
-.separator__circle:hover{background: var(--off-black); transform: scale(.9);}
-.separator__circle:active{ transform: scale(1.1); }
+.separator__circle:hover{background: var(--off-black);}
 
 .calculator__result{
     line-height: calc(var(--font-size)*4);    
