@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <main class="main flex">
+    <section class="calculator flex" id="calculator">
+      <div class="calculator__inputs flex">
+        <div class="input__container">
+          <label for="day" class="inputs__label">DAY</label>
+          <input type="text" name="day" id="day" class="inputs__item" placeholder="DD">
+        </div>
+        <div class="input__container">
+          <label for="month" class="inputs__label">MONTH</label>
+          <input type="text" name="month" id="month" class="inputs__item" placeholder="MM">
+        </div>
+        <div class="input__container">
+          <label for="year" class="inputs__label">YEAR</label>
+          <input type="text" name="year" id="year" class="inputs__item" placeholder="YYYY">
+        </div>
+      </div>
+      <div class="calculator__separator">
+        <button class="separator__circle flex" id="calculate-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+        </button>
+      </div>
+      <div class="calculator__result">
+        <div class="result__item"><span class="result__number" id="result-years">--</span> years</div>
+        <div class="result__item"><span class="result__number" id="result-months">--</span> months</div>
+        <div class="result__item"><span class="result__number" id="result-days">--</span> days</div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__paragraph">Developed by <a href="https://github.com/maurocentu26" target="_blank">Mauro Centurion</a>.<br>Click on my name to visit my GitHub profile :D.</p>
+    </footer>
+  </main>
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
